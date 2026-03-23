@@ -93,7 +93,7 @@ services:
     restart: unless-stopped
 
   seerr:
-    image: ghcr.io/seerr-team/seerr:sha-dbe1fca
+    image: ghcr.io/seerr-team/seerr:v3.1.0
     init: true
     container_name: seerr
     environment:
